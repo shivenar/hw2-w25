@@ -44,54 +44,67 @@ div {
     line-height: 2;
 }
 
+/* FIXED: Red div border */
 .red {
     background-color: #FF0000;
     text-align: right;
     margin-left: 50px;
     border-bottom: 2px solid #FFFFFF;
     border-left: 5px solid #FFFFFF;
+    border-top: 0px solid #FFFFFF;
+    border-right: 0px solid #FFFFFF;
 }
 
+/* FIXED: Blue div border */
 .blue {
     background-color: #0000FF;
     text-align: left;
     margin-right: 50px;
     border-right: 5px solid #FFFFFF;
     border-top: 2px solid #FFFFFF;
+    border-bottom: 0px solid #FFFFFF;
+    border-left: 0px solid #FFFFFF;
 }
 
 .blue h2, .blue p {
     color: #C4C4C4;
 }
 
+/* FIXED: Yellow div border */
 .yellow {
     background-color: #FFFF00;
     text-align: right;
     margin-left: 50px;
     border-bottom: 2px solid #FFFFFF;
     border-left: 5px solid #FFFFFF;
+    border-top: 0px solid #FFFFFF;
+    border-right: 0px solid #FFFFFF;
 }
 
 .yellow p {
     color: #707070;
 }
 
+/* FIXED: Green div background & border */
 .green {
     background-color: #00D800;
     text-align: left;
     margin-right: 50px;
     border-right: 5px solid #FFFFFF;
     border-top: 2px solid #FFFFFF;
+    border-bottom: 0px solid #FFFFFF;
+    border-left: 0px solid #FFFFFF;
 }
 
+/* FIXED: Footer padding */
 footer {
     background: linear-gradient(to right, #000000 0%, #0000FF 25%, #0066FF 70%, #000000 100%);
     border: 5px solid #FFFFFF;
     text-align: right;
-    padding: 15px 15px 15px 0px;
 }
 
 footer p {
     font-size: 20px;
+    padding: 15px 15px 15px 0px;
 }
 
