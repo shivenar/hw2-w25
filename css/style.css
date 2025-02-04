@@ -1,12 +1,12 @@
 /* Author: Shiven Arya */
 /* Date: Feb 2 2025 */
-/* Description: This is the styling file for the page */
+/* Description: Styling file for the page */
 
 body {
-    font-family: Arial, Verdana, sans-serif;
+    font-family: Arial, Verdana;
     background-color: #000000;
     color: #FFFFFF;
-    margin: 20px 20px 0 20px;
+    margin: 20px 20px 0px 20px;
 }
 
 h1 {
@@ -22,7 +22,7 @@ h2 {
 
 p {
     font-size: 24px;
-    padding: 10px 0 0 10px;
+    padding: 10px 0px 0px 10px;
 }
 
 img {
@@ -77,7 +77,7 @@ div {
 }
 
 .green {
-    background-color: #00EB00;
+    background-color: #00D800;
     text-align: left;
     margin-right: 50px;
     border-right: 5px solid #FFFFFF;
@@ -88,7 +88,10 @@ footer {
     background: linear-gradient(to right, #000000 0%, #0000FF 25%, #0066FF 70%, #000000 100%);
     border: 5px solid #FFFFFF;
     text-align: right;
-    padding: 15px 15px 15px 0;
+    padding: 15px 15px 15px 0px;
+}
+
+footer p {
     font-size: 20px;
 }
 
